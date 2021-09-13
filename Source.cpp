@@ -74,6 +74,7 @@ int main() {
 			draw_ship(x, --y);
 		}
 		if (ch == 's') {
+			chc = 's';
 			erase_ship(x, y);
 			draw_ship(x, y);
 		}
